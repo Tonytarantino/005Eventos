@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Interactuando con HTML</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li class="itemMenu"><a href="#" class="linkMenu">ITEM</a></li>
+          <li class="itemMenu"><a href="#" class="linkMenu">ITEM</a></li>
+          <li class="itemMenu"><a href="#" class="linkMenu">ITEM</a></li>
+          <li class="itemMenu"><a href="#" class="linkMenu">ITEM</a></li>
+          <li class="itemMenu"><a href="#" class="linkMenu">ITEM</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="portada"  data-aos-duration="2500">
+      <div class="portadaInfo" data-aos="fade-up" data-aos-duration="3000">
+        <h1 id="tituloPortada">Microbit</h1>
+        <h3 id="subtituloPortada">Tus primeros pasos en la robótica </h3>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./index.js"></script>
+  </body>
+</html>

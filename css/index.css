@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+  }
+  
+  header {
+    background-color: #1b4f72;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  .menu {
+    list-style: none;
+    display: flex;
+    height: 20px;
+    padding: 30px;
+  }
+  
+  .linkMenu {
+    color: white;
+    text-decoration: none;
+    margin: 50px;
+  }
+  
+  #portada {
+    text-align: center;
+    background-image: url(./imagenes/microbit.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+  }
+  .portadaInfo {
+      margin-bottom: 200px;
+  }
+  
+  #tituloPortada {
+  /*   margin: 50px; */
+    font-size: 100px;
+    margin-bottom: 50px;
+    color: #17202A;
+  }
+  
+  #subtituloPortada {
+    font-size: 25px;
+  }
+  
+  
+  
