@@ -1,6 +1,8 @@
 let titulo = document.getElementById("tituloPortada");
 let subtitulo = document.getElementById("subtituloPortada");
 let parrafoInscripciones = document.getElementById("parrafoInscripciones");
+
+
 /* let formulario = document.getElementById("formularioInscripcion"); */
  
 
@@ -51,6 +53,9 @@ tarjetaArduino.addEventListener("click", ()=>{
     cards.remove();
     parrafoInscripciones.innerHTML = "Para llevar adelante la inscripción te recomendamos tenér algunos archivos preparados para adjuntarlos cuando sea necesrio. Debes tener: foto frente y dorso de DNI del estudiante* y foto frente y dorso de adulto responsable del menor*"
 });
+
+
+
 /* function inscripcionArduino() {
   console.log("inscripcion Arduino");
   titulo.innerHTML = "Arduino";

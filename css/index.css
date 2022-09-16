@@ -95,3 +95,10 @@ nav {
 
 
 /* form */
+#formularioInscripcion{
+  padding:  20px;
+
+  background-color:#a4bdcd;
+  max-width: 800px;
+  margin: auto;
+}
